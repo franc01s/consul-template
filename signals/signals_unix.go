@@ -1,4 +1,4 @@
-// +build linux darwin freebsd openbsd solaris netbsd
+// +build linux darwin freebsd openbsd solaris netbsd aix
 
 package signals
 

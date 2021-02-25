@@ -6,6 +6,7 @@ require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/armon/go-metrics v0.3.4 // indirect
 	github.com/frankban/quicktest v1.4.0 // indirect
+	github.com/golang/lint v0.0.0-20201208152925-83fdc39ff7b5 // indirect
 	github.com/golang/snappy v0.0.2 // indirect
 	github.com/google/btree v1.0.0 // indirect
 	github.com/hashicorp/consul/api v1.4.0
@@ -39,8 +40,13 @@ require (
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e // indirect
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	gopkg.in/yaml.v2 v2.3.0
+	sourcegraph.com/sourcegraph/go-diff v0.6.1 // indirect
 )
 
 replace github.com/golang/lint => golang.org/x/lint v0.0.0-20190409202823-959b441ac422
 
 replace sourcegraph.com/sourcegraph/go-diff => github.com/sourcegraph/go-diff v0.5.1
+
+replace github.com/hashicorp/go-sockaddr => github.com/franc01s/go-sockaddr v1.0.4
+
+replace github.com/hashicorp/go-syslog => github.com/franc01s/go-syslog v1.0.1
